@@ -2,7 +2,7 @@ Main - класс запуска программы\
 Main.main - метод запуска программы\
 Main.clearConsole - метод очистки консоли\
 \
-Worker - класс сотрудника\\
+Worker - класс сотрудника\
 Worker.setFullName - сеттер изменения имени\
 Worker.setPosition - сеттер изменения должности\
 Worker.setSalary - сеттер изменения зарплаты\
