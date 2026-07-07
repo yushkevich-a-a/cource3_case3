@@ -7,8 +7,8 @@ public class Worker {
     private int hireYear;      
 
     public Worker() {
-        this.fullName = "Новый сотрудник" + Long.toString(System.currentTimeMillis());
-        this.position = "не указана";
+        this.fullName = "";
+        this.position = "";
         this.salary = 0.0;
         this.hireYear = LocalDate.now().getYear();
     }
@@ -20,10 +20,6 @@ public class Worker {
         this.hireYear = hireYear <= LocalDate.now().getYear() ? hireYear : LocalDate.now().getYear();
     }
 
-    @Override
-    protected void finalize() throws Throwable {
-        super.finalize();
-    }
 
     public void setFullName(String fullName) {
         this.fullName = fullName;
