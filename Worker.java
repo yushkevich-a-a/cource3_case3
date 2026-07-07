@@ -1,5 +1,9 @@
 import java.time.LocalDate;
 
+
+ * Класс, представляющий работника.
+ * Содержит поля: фамилия и инициалы, должность, зарплата, год поступления.
+ */
 public class Worker {
     private String fullName;   
     private String position;   
